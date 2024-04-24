@@ -1,3 +1,20 @@
+.navbar {
+    background-color: #202DF0;
+    overflow: hidden;
+    width: 1000px;
+    margin: auto;
+  }
+
+.navbar a {
+    float: none;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+  }
+
+
 .blauw, span{
     color: #202DF0;
 }
