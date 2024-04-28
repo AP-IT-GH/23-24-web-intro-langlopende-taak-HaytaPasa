@@ -11,51 +11,155 @@
     <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="./images/IT Solutioins logo.png" alt="Koffie & co" width="100" height="100">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <a class="navbar-brand" href="index.html"><img src="./images/IT Solutioins logo3b.png" alt="IT Solutions" width="200" height="75">
+            </a>
+            <ul class="navbar-nav nav-underline mr-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">home</a>
+                <a class="nav-link fw-bold py-1" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="diensten.html">Diensten</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Diensten
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="dienst1.html">Dienst 1</a></li>
-                  <li><a class="dropdown-item" href="dienst2.html">Dienst 2</a></li>
-                  <li><a class="dropdown-item" href="dienst3.html">Dienst 3</a></li>
-                  <li><a class="dropdown-item" href="dienst4.html">Dienst 1</a></li>
-                  <li><a class="dropdown-item" href="dienst5.html">Dienst 2</a></li>
-                  <li><a class="dropdown-item" href="dienst6.html">Dienst 3</a></li>
-                </ul>
+                <a class="nav-link fw-bold py-1 active" href="diensten.html">Diensten</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">contact</a>
+                <a class="nav-link fw-bold py-1" href="contact.html">Contact</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
-              <button class="btn btn-sm btn-outline-secondary" type="submit">zoeken</button>
+              <input class="topnav form-control me-2" type="search" placeholder="Zoeken" aria-label="Search">
+              <button class="btn fw-bold py-1" type="submit">zoeken</button>
             </form>
-          </div>
         </div>
       </nav>
+    </header>
 
-      <header></header>
-      <main></main>
-      <aside></aside>
-      <footer></footer>
+    <main>
+      <div class="row">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/servers.jpg" class="card-img rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="performance.html" class="textcolor">Serverprestaties</a>
+                </h5>
+                <p class="card-text">
+                  Een overzicht van de prestaties van de servers, inclusief CPU-gebruik, geheugengebruik, schijfruimte en netwerkactiviteit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/serverupdown.webp" class="card-img rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="online.html" class="textcolor">Serveruptime en -beschikbaarheid</a>
+                </h5>
+                <p class="card-text">
+                  Grafieken die de uptime en beschikbaarheid van servers over tijd laten zien, inclusief meldingen bij ongeplande downtime.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/networktraffic.jpg" class="card-img rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="networkactivity.html" class="textcolor">Netwerkverkeer en -activiteit</a>
+                </h5>
+                <p class="card-text">
+                  Een overzicht van het inkomende en uitgaande netwerkverkeer, inclusief bandbreedtegebruik, aantal verbonden apparaten.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/routing.jpg" class="card-img rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="routing.html" class="textcolor">Routingtabellen</a>
+                </h5>
+                <p class="card-text">
+                  Houd de routingtabellen van de router in de gaten om te controleren of de juiste routes worden gebruikt voor het doorsturen van verkeer binnen het netwerk.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+          
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/update.png" class="card-img rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="updates.html" class="textcolor">Firmware- en software-updates</a>
+                </h5>
+                <p class="card-text">
+                  Zorg ervoor dat de router up-to-date is met de nieuwste firmware- en softwareversies om beveiligingsproblemen te voorkomen en om mogelijke bugs op te lossen.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="./images/alerts.avif" class="card-img rounded-start" alt="">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <a href="alerts.html" class="textcolor">Waarschuwingen en meldingen</a>
+                </h5>
+                <p class="card-text">
+                  Gebruikers kunnen aangepaste waarschuwingsdrempels instellen voor verschillende metrieken, zodat ze onmiddellijk op de hoogte worden gesteld van eventuele afwijkingen of potentiële problemen.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <aside></aside>
+    <footer class="copyright">
+        &copy; 2024 IT Solutioins. All rights reserved.
+      </div>
+    </footer>
     
 </body>
 </html>
