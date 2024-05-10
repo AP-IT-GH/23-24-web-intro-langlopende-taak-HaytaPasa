@@ -2,7 +2,7 @@
     color: #000000;
     background-color: #ffffff;
     overflow: hidden;
-    width: 1000px;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -25,14 +25,14 @@
   color: #202DF0;
 }
 
-.copyright{
-  position: absolute;
-  width: 100%;
+.footer{
   color: #0CF513;
-  line-height: 40px;
-  font-size: 0.7rem;
+  padding: 20px 0;
   text-align: center;
-  bottom: 0;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
 
 .img-center{
