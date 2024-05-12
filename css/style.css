@@ -61,3 +61,156 @@
   height: 600px;
   width: 100%;
 }
+
+.chart-container {
+  width: 80%; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  margin: 0 auto; /* Center the chart horizontally */
+}
+
+.gaugeCPU {
+  width: 100%;
+  max-width: 250px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #004033;
+}
+
+.gaugeCPU__body {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  background: #b4c0be;
+  position: relative;
+  border-top-left-radius: 100% 200%;
+  border-top-right-radius: 100% 200%;
+  overflow: hidden;
+}
+
+.gaugeCPU__fill {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  background: #009578;
+  transform-origin: center top;
+  transform: rotate(0.25turn);
+  transition: transform 0.2s ease-out;
+}
+
+.gaugeCPU__cover {
+  width: 75%;
+  height: 150%;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+}
+
+.gaugeRAM {
+  width: 100%;
+  max-width: 250px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #004033;
+}
+
+.gaugeRAM__body {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  background: #b4c0be;
+  position: relative;
+  border-top-left-radius: 100% 200%;
+  border-top-right-radius: 100% 200%;
+  overflow: hidden;
+}
+
+.gaugeRAM__fill {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  background: #009578;
+  transform-origin: center top;
+  transform: rotate(0.25turn);
+  transition: transform 0.2s ease-out;
+}
+
+.gaugeRAM__cover {
+  width: 75%;
+  height: 150%;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+}
+
+.gaugeTEMP {
+  width: 100%;
+  max-width: 250px;
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #004033;
+}
+
+.gaugeTEMP__body {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  background: #b4c0be;
+  position: relative;
+  border-top-left-radius: 100% 200%;
+  border-top-right-radius: 100% 200%;
+  overflow: hidden;
+}
+
+.gaugeTEMP__fill {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  background: #009578;
+  transform-origin: center top;
+  transform: rotate(0.25turn);
+  transition: transform 0.2s ease-out;
+}
+
+.gaugeTEMP__cover {
+  width: 75%;
+  height: 150%;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  /* Text */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 25%;
+  box-sizing: border-box;
+}
